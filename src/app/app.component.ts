@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { MenuBarComponent } from "./components/menu-bar/menu-bar.component";
+import { RouterModule } from '@angular/router';
+import { HomeComponent } from "./pages/home/home.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  imports: [MenuBarComponent, RouterModule, HomeComponent]
 })
 export class AppComponent {
   title = 'angular-blog';
