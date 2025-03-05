@@ -1,3 +1,10 @@
+## "Desenvolvido para fins educacionais"
+
+# Descrição
+
+Criação de uma aplicação de blog funcional, com componentes inteligente e projeto Angular organizado utilizando as ferramentas que o próprio framework Oferece.
+
+
 # AngularBlog
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
